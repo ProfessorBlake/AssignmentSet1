@@ -8,7 +8,7 @@ public class WallController : MonoBehaviour
 
     public void ToggleWall()
 	{
-		On = !o
+		On = !On;
 		Debug.Log(gameObject.name + " " + On);
 	}
 }
